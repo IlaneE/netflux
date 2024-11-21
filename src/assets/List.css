@@ -1,0 +1,14 @@
+.listObj {
+    display: flex;
+    overflow-x: scroll;
+    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .listObj::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .listT {
+    font-size: 20px;
+  }

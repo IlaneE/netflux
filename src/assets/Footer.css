@@ -1,0 +1,50 @@
+footer {
+    padding: 0 60px;
+    color: #999999;
+    font-size:14px;
+    width:932px;
+    height:249px;
+   
+  }
+  .social {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .social img {
+    height: 25px;
+  }
+  
+  .lien {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+  }
+  
+  .lien ul {
+    display: grid;
+    gap: 18px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .lien li a,
+  .btn {
+    color: var(--white);
+    text-decoration: none;
+  }
+  
+  .btn {
+    margin-top: 60px;
+    border: 1px solid #999999;
+    padding: 8px 6px;
+  }
+
+.btnd {
+    margin-top: 30px;
+    height:100px;
+}
+
+.date {
+    margin-top:40px;
+}
