@@ -11,4 +11,6 @@
   
   .listT {
     font-size: 20px;
+    position: relative;
+    left:60px;
   }

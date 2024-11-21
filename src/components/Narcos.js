@@ -2,7 +2,7 @@ import "../assets/Narcos.css";
 
 import play from "../assets/images/play.png";
 import plus from "../assets/images/plus.png";
-import narcosBG from "../assets/images/narcosbg.png";
+import narcosBG from "../assets/images/narcosbg.svg";
 import netflixOriginal from "../assets/images/netflix_original.svg";
 import logoNarcos from "../assets/images/logo-narcos.svg";
 
@@ -11,7 +11,7 @@ function Narcos() {
     <div className="narcos">
       <img src={narcosBG} className="bg" />
       <div className="contain">
-        <div className="title">
+        <div className="titlenarcos">
           <img src={netflixOriginal} className="netflixor" />
           <img src={logoNarcos} className="logoh" />
         </div>

@@ -1,0 +1,119 @@
+.agedor {
+    position: relative;
+    top:55px;
+    width:100%;
+    height: 462px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .content1 {
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.5); Fond semi-transparent */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .title1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    left:60px;
+    top:67px;
+    max-width:467px;
+  }
+  
+  .highlight {
+    color: #e50914; /* Rouge Netflix */
+    font-size: 5.8rem;
+  }
+  
+  .subtitle {
+    margin-top: 10px;
+    font-size: 26px;
+    position: absolute;
+    left:60px;
+    max-width: 580px;
+    text-align: left;
+    
+  }
+  .subtitle1 {
+    font-size: 26px;
+    color: white;
+  }
+  .descage {
+    font-size: 20px;
+    color: #ddd;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+
+  .movie-carousel {
+    position:relative;
+    
+  }
+  
+  .carousel, .program-grid {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .movie-card, .program-card {
+    position: relative;
+    flex: 0 0 auto;
+    width: 200px;
+  }
+  
+  .movie-img, .program-img {
+    width: 100%;
+    border-radius: 1px;
+  }
+  
+  .play-button {
+    position: absolute;
+    bottom: 85px;
+    left: 75px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ff0000;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+  }
+  .triangle1 {
+    height:25px;
+    position: absolute;
+    top:15px;
+    left:15px;
+  }
+  
+  .movie-title, .program-title {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .categories {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .category-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
