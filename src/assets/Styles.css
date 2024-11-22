@@ -56,7 +56,8 @@
 
   .movie-carousel {
     position:relative;
-    
+    left:60px;
+    max-height:255px;
   }
   
   .carousel, .program-grid {
@@ -64,14 +65,25 @@
     gap: 20px;
     overflow-x: auto;
   }
+
+  .movie-card {
+    height:255px;
+    width: 420px;
+  }
   
-  .movie-card, .program-card {
+  /* .movie-card, .program-card {
     position: relative;
     flex: 0 0 auto;
     width: 200px;
-  }
+  } */
   
-  .movie-img, .program-img {
+  .movie-img {
+    height:255px;
+    width: 420px;
+    border-radius: 1px;
+  }
+
+  .program-img {
     width: 100%;
     border-radius: 1px;
   }
@@ -79,13 +91,13 @@
   .play-button {
     position: absolute;
     bottom: 85px;
-    left: 75px;
-    background-color: rgba(0, 0, 0, 0.5);
+    left: 180px;
+    background-color: rgba(0, 0, 0, 0.1);
     color: #ff0000;
     border: none;
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     align-items: center;
     cursor: pointer;
   }
