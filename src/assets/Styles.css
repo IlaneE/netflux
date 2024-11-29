@@ -1,18 +1,19 @@
 .agedor {
     position: relative;
-    top:55px;
+    top:0px;
     width:100%;
     height: 462px; 
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
+    z-index: -2;
   }
   
   .content1 {
     text-align: center;
     /* background-color: rgba(0, 0, 0, 0.5); Fond semi-transparent */
-    padding: 20px;
+    /* padding: 20px; */
     border-radius: 10px;
   }
   
@@ -57,7 +58,9 @@
   .movie-carousel {
     position:relative;
     left:60px;
-    max-height:255px;
+    height:255px;
+    z-index:4;
+
   }
   
   .carousel, .program-grid {
@@ -66,7 +69,19 @@
     overflow-x: auto;
   }
 
-  .movie-card {
+  .carousel {
+    height:255px;
+    position: relative;
+    bottom:15px;
+    overflow-y: hidden;
+  }
+
+  .carousel::-webkit-scrollbar {
+    display: none;
+  }
+
+  .movie-card { 
+    z-index:1;
     height:255px;
     width: 420px;
   }
@@ -81,6 +96,7 @@
     height:255px;
     width: 420px;
     border-radius: 1px;
+    z-index: 3;
   }
 
   .program-img {
@@ -89,23 +105,43 @@
   }
   
   .play-button {
-    position: absolute;
-    bottom: 85px;
-    left: 180px;
+    position: relative;
+    bottom: 163px;
+    left: 161px;
     background-color: rgba(0, 0, 0, 0.1);
     color: #ff0000;
     border: none;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 97px;
+    height: 97px;
     align-items: center;
     cursor: pointer;
   }
   .triangle1 {
-    height:25px;
+    height:51px;
+    width:44px;
     position: absolute;
-    top:15px;
-    left:15px;
+    top:23px;
+    left:32px;
+  }
+
+  .movie-TD {
+    position: relative;
+    border:1px solid red;
+    bottom:205px;
+    width:250px;
+    height:100px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .movie-title {
+    margin-right:100px;
+    margin-bottom: 0px;
+  }
+
+  .movie-desc {
+    margin-top:0px;
   }
   
   .movie-title, .program-title {

@@ -3,6 +3,10 @@
     overflow-x: scroll;
     -ms-overflow-style: none; /* Internet Explorer 10+ */
     scrollbar-width: none; /* Firefox */
+    position: relative;
+    left:60px;
+    top:20px;
+    margin-bottom:55px;
   }
   
   .listObj::-webkit-scrollbar {
@@ -13,4 +17,10 @@
     font-size: 20px;
     position: relative;
     left:60px;
+    margin-bottom:-11px;
   }
+
+.list {
+  position: relative;
+  top:-20px;
+}
